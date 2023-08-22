@@ -1,0 +1,1 @@
+const menuIcon = document.getElementById('menu-icon')

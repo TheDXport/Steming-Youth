@@ -13,15 +13,16 @@ nav {
     align-items: center;
     justify-content:space-between;
     height:7vh;
-    
+    position:fixed;
+    top:0;
  
 
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
     border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.10);
 }
 
 nav ul {
@@ -35,4 +36,8 @@ nav ul li {
 
 nav ul li a {
     margin-left:2vw;
+}
+
+#menu-icon {
+    cursor: pointer;
 }
